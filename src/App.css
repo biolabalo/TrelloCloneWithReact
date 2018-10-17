@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.card{
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+margin-left: 10px;
+margin-right: 20px;
+width: 300px;
+float:left;
+margin-top: 20px;
+}
+
+.card:hover{
+cursor: pointer;
+}
+
+.nav-link{
+color: black  !important;
+font-size:15px !important;
+}
+
+.form_container2{
+ transition: transform .2s; 
+width:  200px;
+margin : 0 auto ;
+border:  1px solid grey;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+margin-bottom: 20px;
+padding:10px;
+border-radius: 5px;
+background-color: khaki;
+cursor: pointer;
+}
+
+.form_container{
+ transition: transform .2s; 
+width:  400px;
+margin : 0 auto ;
+border:  1px solid grey;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+margin-bottom: 20px;
+padding:20px;
+border-radius: 10px;
+background-color: khaki;
+cursor: pointer;
+}
+
+.form_container:hover {
+ transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.fa-trash-alt{
+color: black;
+float: right;
+}
+
+.fa-trash-alt:hover{
+color:crimson;
+}
+
+.xoxo{
+padding : 10px;
+background-color: yellowgreen;
+
+float: left;
+margin-left: 20px;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+border:  1px solid grey;
+cursor:pointer;
+}
+
+
+
